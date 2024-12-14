@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+.simBtn {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
+.naoBtn {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+}

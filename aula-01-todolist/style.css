@@ -1,0 +1,36 @@
+/* Apotamento Geral */
+/* Alt + Shift + A */
+
+/* Classe, semi especifica */
+.container {
+text-align: center;
+border: black solid 2px;
+padding: 26px;
+width: 250px;
+}
+
+input[type="text"] {
+    padding: 10px; /* Espaço entre todas as bordas */
+    font-size: 16px; /* Tamanho do texto */
+    border-radius: 10px;/* Arredondamento da borda */
+    margin-bottom: 10px;
+}
+
+.btn-enviar{
+    background-color: brown;
+    color: white;
+    padding: 10px; /* Espaço entre as bordas ( px => PIXELS) */
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+   border-right: 20px solid rgb(0, 0, 0);
+   border-left: 20px solid black;
+}
+body{
+ margin-left: 170px;
+}
+
+
+
+/* Id, muito especifico */
+#container{}

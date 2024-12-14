@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <h1>Vamos programar hoje?</h1>
+
+    <div class="container" id="container">
+        <button class="simBtn" id="simBtn">Sim</button>
+        <button class="naoBtn" id="naoBtn">Não</button>
+    </div>
+
+</body>
+<script>
+    const simBtn = document.getElementById("simBtn");
+
+    simBtn.addEventListener("click", function () {
+        alert("Opaa! vamos programar hoje!!!")
+    });
+
+    const botaoNao = document.getElementById("naoBtn");
+    const container = document.getElementById("container");
+
+    container.addEventListener("mousemove", function (event) {
+        const mouseX = event.clientX;
+        const mouseY = event.clientY;
+    })
+</script>
+</html>
